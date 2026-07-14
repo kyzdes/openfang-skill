@@ -1,6 +1,6 @@
 {
   "name": "openfang",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Operator playbook for OpenFang — the Rust \"Agent Operating System\" (CLI + daemon at ~/.openfang) that spawns and orchestrates AI agents over cloud inference. Teaches the daemon lifecycle (start runs FOREGROUND; bare nohup does not survive systemd-oomd), the startup-cached model registry (edits need a restart — there is no reload command), agent.toml and its capabilities RBAC, providers and the fallback chain, cron/triggers/workflows/hands, memory + ollama embeddings, and a cost-ordered gotchas catalog verified against a live install. Ships the full CLI reference, three read-only slash commands, a diagnose script, and mounts OpenFang's own MCP server. Upstream is abandoned at v0.6.9 — every workaround here is permanent.",
   "author": {
     "name": "kyzdes"
