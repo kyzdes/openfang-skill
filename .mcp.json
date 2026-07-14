@@ -1,9 +1,5 @@
 {
-  "mcpServers": {
-    "openfang": {
-      "command": "/home/kyzdes/.openfang/bin/openfang",
-      "args": ["mcp"],
-      "timeout": 120000
-    }
+  "openfang": {
+    "command": "${CLAUDE_PLUGIN_ROOT}/scripts/openfang-mcp.sh"
   }
 }
