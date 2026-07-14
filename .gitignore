@@ -1,0 +1,7 @@
+.DS_Store
+.gap-reports/
+.wf/
+custom_models.json.*
+*.bak
+*.prestop
+*.prestart

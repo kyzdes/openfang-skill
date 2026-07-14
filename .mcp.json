@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "openfang": {
+      "command": "/home/kyzdes/.openfang/bin/openfang",
+      "args": ["mcp"],
+      "timeout": 120000
+    }
+  }
+}
